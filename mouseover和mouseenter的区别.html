@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mouseove & mouseout和mouseenter & mouseleave</title>
+  <style>
+    div {
+      border: 1px solid red;
+      height:50px;
+      line-height: 50px;
+    }
+    #b1, #b2 {
+      border: 1px solid green;
+    }
+  </style>
+</head>
+<body>
+  <div id="con1">
+    <button id="b1">mouseove & mouseout</button>
+  </div>
+  <p id="demo1"></p>
+  <div id="con2">
+    <button id="b2">mouseenter & mouseleave</button>
+  </div>
+  <p id="demo2"></p>
+  <script>
+    var over = 0
+    var out = 0
+    var enter = 0
+    var leave = 0
+
+    // mouseover
+    document.getElementById('con1').addEventListener('mouseover', function() {
+      document.getElementById('demo1').innerHTML = 'mouseover ' + over++
+    })
+    //mouseout
+    document.getElementById('con1').addEventListener('mouseout', function() {
+      document.getElementById('demo1').innerHTML = 'mouseout ' + out++
+    })
+    //mouseenter
+    document.getElementById('con2').addEventListener('mouseenter', function() {
+      document.getElementById('demo2').innerHTML = 'mouseenter ' + enter++
+    })
+    //mouseleave
+    document.getElementById('con2').addEventListener('mouseleave', function() {
+      document.getElementById('demo2').innerHTML = 'mouseleave ' + leave++
+    })
+  </script>
+</body>
+</html>
