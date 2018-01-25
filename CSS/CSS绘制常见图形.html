@@ -4,6 +4,165 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>CSS画图形</title>
+  <style>
+    div {
+      background: gray;
+      margin: 20px;
+    }
+
+    .square {
+      height: 100px;
+      width: 100px;
+    }
+
+    .rectangle {
+      height: 100px;
+      width: 200px;
+    }
+
+    .circle {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    .oval {
+      margin: 0 50px;
+      height: 100px;
+      width: 200px;
+      border-radius: 100px / 50%;
+    }
+
+    .triangle-origin {
+      width: 20px;
+      height: 20px;
+      border-top: 100px solid black;
+      border-right: 100px solid red;
+      border-bottom: 100px solid blue;
+      border-left: 100px solid orange;
+    }
+
+    .isosceles-triangle {
+      width: 0px;
+      height: 0px;
+      border-right: 50px solid transparent;
+      border-left: 50px solid transparent;
+      border-bottom: 100px solid blue;
+    }
+
+    .regular-triangle {
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-left: 100px solid transparent;
+      border-bottom: 150px solid blue;
+    }
+
+
+    .triangle-up {
+      width: 0px;
+      height: 0px;
+      border-right: 50px solid transparent;
+      border-left: 50px solid transparent;
+      border-bottom: 100px solid blue;
+    }
+
+    .triangle-down {
+      width: 0px;
+      height: 0px;
+      border-right: 50px solid transparent;
+      border-left: 50px solid transparent;
+      border-top: 100px solid blue;
+    }
+
+    .triangle-left {
+      width: 0px;
+      height: 0px;
+      border-bottom: 50px solid transparent;
+      border-top: 50px solid transparent;
+      border-right: 100px solid blue;
+    }
+
+    .triangle-right {
+      width: 0px;
+      height: 0px;
+      border-bottom: 50px solid transparent;
+      border-top: 50px solid transparent;
+      border-left: 100px solid blue;
+    }
+
+    .triangle-topleft {
+      width: 0;
+      height: 0;
+      border-right: 100px solid transparent; 
+      border-top: 100px solid red;         
+    }
+
+    .triangle-topright {
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent; 
+      border-top: 100px solid red;         
+    }
+
+    .triangle-rightbottom {
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent;   
+      border-bottom: 100px solid red;       
+    }
+
+    .triangle-leftbottom {
+      width: 0;
+      height: 0;
+      border-right: 100px solid transparent;   
+      border-bottom: 100px solid red;       
+    }
+
+    .talkbubble {
+      width: 120px;
+      height: 80px;
+      background: red;
+      position: relative;
+      border-radius: 10px;
+    }
+
+    .talkbubble:before {
+      content:"";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid red;
+      border-bottom: 13px solid transparent;
+    }
+
+    .heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 10px;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    .heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin :100% 100%;
+    }
+  </style>
 </head>
 <body>
   正方形
