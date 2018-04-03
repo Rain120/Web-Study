@@ -16,6 +16,22 @@ function capitalize2(s) {
   }
   return ret
 }
+// 现在又出现了新需求，将[A-Z]改为[_a - _z]
+function formatStr(str) {
+	return str.toLowerCase().replace(/^\S/g,function(s){return '_' + s.toLowerCase();});
+}
+function setFormat(str) {
+  var ret = ''
+  for (var i in str) {
+    if (/[A-Z]/.test(str[i])) {
+      ret += formatStr(str[i])
+      } else {
+      ret += str[i];
+      }
+  }
+  return ret;
+}
 
 var s = 'asd-fgh-jkl'
 capitalize1(s)
+setFormat(capitalize1(s))
