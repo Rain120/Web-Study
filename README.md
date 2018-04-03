@@ -1,4 +1,6 @@
-[随机字符串的生成](https://github.com/Rain120/Web-Study/blob/master/%E9%9A%8F%E6%9C%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%94%9F%E6%88%90.js)
+[异步加载JS文件并执行回调函数](https://github.com/Rain120/Web-Study/blob/master/%E5%BC%82%E6%AD%A5%E5%8A%A0%E8%BD%BDJS%E6%96%87%E4%BB%B6%E5%B9%B6%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0.js) 2018-4-3 58笔试
+
+[随机字符串的生成](https://github.com/Rain120/Web-Study/blob/master/%E9%9A%8F%E6%9C%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%94%9F%E6%88%90.js) 2018-4-3 拼多多笔试
 
 [图片模态框](https://github.com/Rain120/Web-Study/blob/master/%E5%9B%BE%E7%89%87%E6%A8%A1%E6%80%81%E6%A1%86.html)
 
