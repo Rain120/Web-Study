@@ -1,4 +1,10 @@
 // asd-fgh-jkl ===>asdFghJkl 小驼峰
+var toCapitalize = function(str) {
+	return str.replace(/-\w/g, function(s) {
+		return s.slice(1).toUpperCase();
+	});
+}
+
 function firstUpperCase(str) {
   return str.toLowerCase().replace(/^\S/g,function(s){return s.toUpperCase();});
 }
