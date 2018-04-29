@@ -1,4 +1,6 @@
-[编写一个输出数组中出现次数最多的元素](https://github.com/Rain120/Web-Study/blob/master/%E8%8E%B7%E5%8F%96%20url%20%E4%B8%AD%E7%9A%84%E6%8C%87%E5%AE%9A%E5%8F%82%E6%95%B0%E7%9A%84%E5%80%BC.js) 4-28
+[日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js.js) 4-29
+
+[将 rgb 颜色字符串转换为十六进制的形式](https://github.com/Rain120/Web-Study/blob/master/%E8%8E%B7%E5%8F%96%20url%20%E4%B8%AD%E7%9A%84%E6%8C%87%E5%AE%9A%E5%8F%82%E6%95%B0%E7%9A%84%E5%80%BC.js) 4-28
 
 [编写一个输出数组中出现次数最多的元素](https://github.com/Rain120/Web-Study/blob/master/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E8%BE%93%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%85%83%E7%B4%A0.js) 2018-4-27
 
