@@ -1,4 +1,4 @@
-[日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js.js) 4-29
+[日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js) 4-29
 
 [将 rgb 颜色字符串转换为十六进制的形式](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js) 4-28
 
