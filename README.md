@@ -1,3 +1,5 @@
+[输出一个有序数组，形式是[[p,q],....]](https://github.com/Rain120/Web-Study/blob/master/%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%EF%BC%8C%E5%BD%A2%E5%BC%8F%E6%98%AF%5B%5Bp%2Cq%5D%2C....%5D.js) 05-07
+
 [日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js) 4-29
 
 [将 rgb 颜色字符串转换为十六进制的形式](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js) 4-28
