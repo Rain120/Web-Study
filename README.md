@@ -1,10 +1,14 @@
-[输出一个有序数组，形式是[[p,q],....]](https://github.com/Rain120/Web-Study/blob/master/%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%EF%BC%8C%E5%BD%A2%E5%BC%8F%E6%98%AF%5B%5Bp%2Cq%5D%2C....%5D.js) 05-07
+[Jquery dataTable + Bootstrap + 完整逻辑实现表格的增删改查](https://github.com/Rain120/Web-Study/blob/master/datatable.html)  2018-05-13
 
-[日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js) 4-29
+[Bootstrap实现商城页面布局](https://github.com/Rain120/Web-Study/blob/master/Bootstrap%2B%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80.html)  2018-05-11
 
-[将 rgb 颜色字符串转换为十六进制的形式](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js) 4-28
+[输出一个有序数组，形式是[[p,q],....]](https://github.com/Rain120/Web-Study/blob/master/%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%EF%BC%8C%E5%BD%A2%E5%BC%8F%E6%98%AF%5B%5Bp%2Cq%5D%2C....%5D.js) 18-05-07
 
-[获取 url 中的指定参数的值](https://github.com/Rain120/Web-Study/blob/master/%E8%8E%B7%E5%8F%96%20url%20%E4%B8%AD%E7%9A%84%E6%8C%87%E5%AE%9A%E5%8F%82%E6%95%B0%E7%9A%84%E5%80%BC.js) 4-28
+[日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js) 2018-4-29
+
+[将 rgb 颜色字符串转换为十六进制的形式](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js) 2018-4-28
+
+[获取 url 中的指定参数的值](https://github.com/Rain120/Web-Study/blob/master/%E8%8E%B7%E5%8F%96%20url%20%E4%B8%AD%E7%9A%84%E6%8C%87%E5%AE%9A%E5%8F%82%E6%95%B0%E7%9A%84%E5%80%BC.js) 2018-4-28
 
 [编写一个输出数组中出现次数最多的元素](https://github.com/Rain120/Web-Study/blob/master/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E8%BE%93%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%85%83%E7%B4%A0.js) 2018-4-27
 
