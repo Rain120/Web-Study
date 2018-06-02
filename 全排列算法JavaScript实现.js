@@ -1,5 +1,5 @@
 /**
- * È«ÅÅÁÐ£ºÀýÈç'ab'=> ab, ba
+ * å…¨æŽ’åˆ—ä¾‹å­'ab'=> ab, ba
  */
 function permutations(string) {
    var ret = [];
