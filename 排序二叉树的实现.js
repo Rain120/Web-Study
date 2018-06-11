@@ -12,8 +12,8 @@ function BinaryTree() {
 	
 	var insertNode = function(node, newNode) {
 		return node.key > newNode.key ? 
-(node.left ? insertNode(node.left, newNode) : node = newNode) : 
-(node.right ? insertNode(node.right, newNode) : node = newNode);
+(node.left ? insertNode(node.left, newNode) : node.left = newNode) : 
+(node.right ? insertNode(node.right, newNode) : node.right = newNode);
     }
 
 	this.insert = function(key) {
