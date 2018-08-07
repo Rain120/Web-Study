@@ -22,4 +22,13 @@ function findMost(arr) {
     }
     return maxEle
 }
+
+const findMost = (arr) => {
+    let res = arr.toString().split('').sort().join("").match(/(\w)\1+/g);
+    res.sort(function(a,b) {
+	return a.length - b.length;
+    })
+    console.log('res is : ' + res[res.length-1])
+}
+
 findMost([1, 2, 3, 1, 2, 5, 6, 6, 7, 4, 3, 2, 1, 4, 8, 1, 5])
