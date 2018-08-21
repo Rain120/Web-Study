@@ -23,13 +23,13 @@ obj2 = {
     }
 }
 **/
-
 var obj = [
     {id:3,parent:2},
     {id:1,parent:null},
     {id:2,parent:1},
 ]
-obj.map(item => {
+function treeObj(obj) {
+	obj.map(item => {
 	if (item.parent !== null) {
         obj.map(o => {
 			if (item.parent === o.id) {
@@ -41,6 +41,8 @@ obj.map(item => {
             }
         });
     }
-});
-obj = obj.filter(item => item.parent === null)[0]
+  });
+	return obj.filter(item => item.parent === null)[0]
+}
+obj = treeObj(obj)
 console.log(obj)
