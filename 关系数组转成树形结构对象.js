@@ -44,5 +44,8 @@ function treeObj(obj) {
   });
 	return obj.filter(item => item.parent === null)[0]
 }
+function treeObj(obj) {
+	return obj.sort((a, b) => b.parent - a.parent).reduce((acc, cur) => (acc ? { ...cur, child: acc } : cur));
+}
 obj = treeObj(obj)
 console.log(obj)
