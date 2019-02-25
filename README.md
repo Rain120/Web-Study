@@ -1,3 +1,7 @@
+[scrollIntoView - 子元素在父元素中滚动到可视区域](https://github.com/Rain120/Web-Study/blob/master/js-%E5%AD%90%E5%85%83%E7%B4%A0%E5%9C%A8%E7%88%B6%E5%85%83%E7%B4%A0%E4%B8%AD%E6%BB%9A%E5%8A%A8%E5%88%B0%E5%8F%AF%E8%A7%86%E5%8C%BA%E5%9F%9F.js) 2019-02-25
+
+[各浏览器名字和版本获取](https://github.com/Rain120/Web-Study/blob/master/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%88%A4%E6%96%AD.js) 2019-02-23
+
 [检查字串里面的括号是否有正确嵌套](https://github.com/Rain120/Web-Study/blob/master/%E6%A3%80%E6%9F%A5%E5%AD%97%E4%B8%B2%E9%87%8C%E9%9D%A2%E7%9A%84%E6%8B%AC%E5%8F%B7%E6%98%AF%E5%90%A6%E6%9C%89%E6%AD%A3%E7%A1%AE%E5%B5%8C%E5%A5%97%20.js)  2018-05-22
 
 [红绿灯的实现](https://github.com/Rain120/Web-Study/blob/master/%E7%BA%A2%E7%BB%BF%E7%81%AF.js)  2018-05-22
@@ -9,6 +13,8 @@
 [Bootstrap实现商城页面布局](https://github.com/Rain120/Web-Study/blob/master/Bootstrap%2B%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80.html)  2018-05-11
 
 [输出一个有序数组，形式是[[p,q],....]](https://github.com/Rain120/Web-Study/blob/master/%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%EF%BC%8C%E5%BD%A2%E5%BC%8F%E6%98%AF%5B%5Bp%2Cq%5D%2C....%5D.js) 18-05-07
+
+2019-02-25 []()
 
 [日期格式化](https://github.com/Rain120/Web-Study/blob/master/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96.js) 2018-4-29
 
