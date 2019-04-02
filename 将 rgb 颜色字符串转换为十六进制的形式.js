@@ -19,3 +19,26 @@ function toHex(str) {
 	return ('0'+(+str).toString(16)).slice(-2);	
 }
 rgb2hex('rgb(255, 255, 255)')
+
+/*
+ * rgba -> { hex, hexa }
+ * (255, 0 , 255, 1) -> { hex: '#ff00ff', hexa: '#ff00ffff' }
+ */
+function rgba2hex(orig) {
+  var a,
+    rgb = orig.replace(/\s/g, '').match(/^(rgba|rgb)?\((\d+),(\d+),(\d+),?([^,\s)]+)?/i),
+    alpha = (rgb && rgb[4] || "").trim(),
+    hex = rgb ?
+    (rgb[1] | 1 << 8).toString(16).slice(1) +
+    (rgb[2] | 1 << 8).toString(16).slice(1) +
+    (rgb[3] | 1 << 8).toString(16).slice(1) : orig;
+
+  a = alpha !== "" ? alpha : '01';
+
+  a = ((a * 255) | 1 << 8).toString(16).slice(1);
+
+  return {
+	hex: '#' + hex,
+	hexa: '#' + hex + a,
+  };
+}
