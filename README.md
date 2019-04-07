@@ -1,3 +1,9 @@
+[cookie的增删改查.js](https://github.com/Rain120/Web-Study/blob/master/cookie%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.js)
+
+[将 rgb 颜色字符串转换为十六进制的形式.js](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js)
+
+[hex转换成rgba格式 - hex2rgba](https://github.com/Rain120/Web-Study/blob/master/hex%E8%BD%AC%E6%8D%A2%E6%88%90rgba%E6%A0%BC%E5%BC%8F%20-%20hex2rgba.js)
+
 [scrollIntoView - 子元素在父元素中滚动到可视区域](https://github.com/Rain120/Web-Study/blob/master/js-%E5%AD%90%E5%85%83%E7%B4%A0%E5%9C%A8%E7%88%B6%E5%85%83%E7%B4%A0%E4%B8%AD%E6%BB%9A%E5%8A%A8%E5%88%B0%E5%8F%AF%E8%A7%86%E5%8C%BA%E5%9F%9F.js)  ------  [Demo](https://codesandbox.io/s/koq3qk2y0o) 2019-02-25
 
 [各浏览器名字和版本获取](https://github.com/Rain120/Web-Study/blob/master/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%88%A4%E6%96%AD.js) 2019-02-23
