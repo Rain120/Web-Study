@@ -17,6 +17,24 @@ function validateTime(value) {
   }
   return true;
 }
+
+const validateDayFormat = (value) => {
+    // tslint:disable-next-line:max-line-length
+    const dayRegex = /(^[Y|y]{4}([-\/\._])M{2}([-\/\._])[D|d]{2})|(^M{2}([-\/\._])[D|d]{2}([-\/\._])[Y|y]{4})$/;
+    if (!dayRegex.test(value)) {
+      return false;
+    }
+    return true;
+}
+
+const validateTimeFormat = (value) => {
+    // tslint:disable-next-line:max-line-length
+    const timeRegex = /(^[Y|y]{4}([-\/\._])M{2}([-\/\._])[D|d]{2})|(^M{2}([-\/\._])[D|d]{2}([-\/\._])[Y|y]{4})\s+[H|h]{2}:m{2}:[S|s]{2}$/;
+    if (!timeRegex.test(value)) {
+      return false;
+    }
+    return true;
+}
 console.log(validateDate('2018-02-28'))
 console.log(validateDate('2018-02-31'))
 console.log(validateTime('2018-01-28 12:20:21'))
