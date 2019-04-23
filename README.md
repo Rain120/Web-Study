@@ -1,3 +1,5 @@
+[洗牌算法--shuffle](https://github.com/Rain120/Web-Study/blob/master/%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95--shuffle.js) 2019-04-23
+
 [cookie的增删改查.js](https://github.com/Rain120/Web-Study/blob/master/cookie%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.js)
 
 [将 rgb 颜色字符串转换为十六进制的形式.js](https://github.com/Rain120/Web-Study/blob/master/%E5%B0%86%20rgb%20%E9%A2%9C%E8%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.js)
