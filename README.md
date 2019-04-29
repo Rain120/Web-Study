@@ -1,3 +1,7 @@
+`CSS`笔记
+
+[`CSS` - 从入门到放弃](https://github.com/Rain120/Web-Study/issues/2)
+
 [洗牌算法--shuffle](https://github.com/Rain120/Web-Study/blob/master/%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95--shuffle.js) 2019-04-23
 
 [cookie的增删改查.js](https://github.com/Rain120/Web-Study/blob/master/cookie%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.js)
