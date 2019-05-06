@@ -1,0 +1,123 @@
+// 1px
+// 使用box-shadow都会让线有阴影，甚至颜色变浅
+.border-1px(@color) {
+  box-shadow: 0px 0px 1px 0px @color inset;
+}
+
+//  transform -> less, scss
+.border-1px {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    border:1px solid #ccc;
+    color: red;
+    height: 200%;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    pointer-events: none;
+    box-sizing: border-box;
+    @media screen and (min-device-pixel-ratio:3), (-webkit-min-device-pixel-ratio:3) {
+      width: 300%;
+      height: 300%;
+      -webkit-transform: scale(0.33);
+      transform: scale(0.33);
+    }
+  }
+}
+
+.border-1px { 
+    overflow: hidden; 
+    position: relative; 
+    border: none!important; 
+}
+.border-1px::after { 
+    content: ".";
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #ccc; 
+    -webkit-transform-origin: 0 0;  
+    transform-origin: 0 0; 
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+
+// media
+.border-1px {
+  border: 1px solid #ccc;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .border-1px {
+      border: 1px solid #ccc;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+    .border-1px {
+      border: 1px solid #ccc;
+    }
+}
+
+// clear 清除浮动
+.clearfix {
+  *zoom: 1
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both
+}
+
+// 单行显示
+.single-line-camp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行显示, 以下方式注意浏览器兼容
+/*
+ * 在webkit浏览器或移动端（绝大部分是webkit内核的浏览器）可以直接使用webkit的css扩展属性（webkit是私有属性）-webkit-line-clamp；
+ * 注意：这是一个不规范的属性，它没有在CSS的规范草案中
+ * -webkit-line-clamp用来限制在一个块元素显示的文本行数，为了实现效果，他要与一下webkit属性结合使用：
+ * display: -webkit-box;（必须结合的属性，将对象作为弹性伸缩盒子模型展示）
+ * -webkit-box-orient（必须结合的属性，设置或检索伸缩盒对象的子元素的排列方式）
+ */
+// less
+.line-camp(@clamp: 3) {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @clamp;
+    -webkit-box-orient: vertical; 
+}
+// scss mixin
+@mixin line-camp($clamp) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $clamp;
+  -webkit-box-orient: vertical;
+}
+
+// 文字对齐
+.text-align-style (@align: 'justify') {
+  text-align: @align;
+  text-align-last: @align;
+}
+.text-align-style::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
