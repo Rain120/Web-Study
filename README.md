@@ -1,8 +1,14 @@
 `CSS`笔记
 
+[你必须知道的Git命令](https://github.com/Rain120/Web-Study/issues/4)
+
+[前端学习知识图谱](https://github.com/Rain120/Web-Study/issues/3)
+
 [`CSS` - 从入门到放弃](https://github.com/Rain120/Web-Study/issues/2)
 
 -----
+
+[requestAnimationFrame兼容](https://github.com/Rain120/Web-Study/blob/master/requestAnimationFrame%E5%85%BC%E5%AE%B9.js) 2019-05-13
 
 [洗牌算法--shuffle](https://github.com/Rain120/Web-Study/blob/master/%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95--shuffle.js) 2019-04-23
 
