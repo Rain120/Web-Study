@@ -1,3 +1,5 @@
+[如何实现Promise？](https://github.com/Rain120/Web-Study/issues/11)
+
 [JavaScript事件循环(Event Loop)](https://github.com/Rain120/Web-Study/issues/8)
 
 `CSS`笔记
