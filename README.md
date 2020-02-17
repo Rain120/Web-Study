@@ -1,3 +1,22 @@
+### Git 如何同步Fork 项目的最新代码
+
+如果你直接[Fork](https://github.com/login?return_to=%2FRain120%2FWeb-Study) 本项目，但是之后 **很多内容更新**，那你如何获取 **新的内容** 呢，请参考下面👇👇👇
+
+```sh
+git clone git@github.com:Rain120/Web-Study.git
+
+git remote add upstream git@github.com:Rain120/Web-Study.git
+
+git fetch upstream
+
+```
+
+[参考](https://rain120.github.io/study-notes/#/notes/git-npm/git-tips?id=git-%e5%a6%82%e4%bd%95%e5%90%8c%e6%ad%a5fork-%e9%a1%b9%e7%9b%ae%e7%9a%84%e6%9c%80%e6%96%b0%e4%bb%a3%e7%a0%81)
+
+---
+
+### 文章目录
+
 [如何实现Promise？](https://github.com/Rain120/Web-Study/issues/11)
 
 [数组API中有哪些不会改变原数组的方法？ ](https://github.com/Rain120/Web-Study/issues/10)
