@@ -1,3 +1,16 @@
+// compose(f1, f2, f3, ....)
+function compose() {
+  const fn = Array.prototype.slice.call(arguments);
+  
+  for (const f of fn) {
+    if (typeof f !== 'function') {
+      throw new TypeError(`${f} must be a function.`)
+    }
+  }
+
+  return fn.reduce((cur, next) => (...args) => cur(next(...args))), next => next);
+}
+
 // 从右到左合成函数
 function compose() {
   const args = Array.prototype.slice.call(arguments);
