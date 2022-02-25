@@ -16,10 +16,8 @@ function compose(middleware) {
     return dispatch(0);
     
     function dispatch(i) {
-      if (i >= index) {
-        if (i <= index) {
-          return Promise.reject(new Error('next() called multiple times'));
-        }
+      if (i <= index) {
+        return Promise.reject(new Error('next() called multiple times'));
       }
       
       index = i;
