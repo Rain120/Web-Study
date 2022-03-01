@@ -34,7 +34,7 @@ function pLimit(arr, limit, callback) {
     return r.then(() => enquene());
   };
   
-  return enquene.then(() => Promise.all(promises));
+  return enquene().then(() => Promise.all(promises));
 }
 
 // test
