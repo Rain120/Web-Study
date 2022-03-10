@@ -27,7 +27,7 @@ function compose() {
     let last = len - 1;
 
     // 如果存在两个及以上参数，则调用最后一个参数函数，并传入内层函数；否则直接返回第 1 个参数函数。
-    let result = len > 0
+    let result = last > 0
       ? args[last].apply(this, arguments)
       : args[0];
       
