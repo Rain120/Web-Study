@@ -12,7 +12,7 @@ function pLimit(arr, limit, callback) {
     const item = arr[index++];
 
     const p = Promise.resolve().then(() => {
-      callback && callback(item, arr);
+      return callback && callback(item, arr);
     });
     promises.push(p);
     
