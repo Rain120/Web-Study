@@ -11,7 +11,7 @@ function curry(fn, ...rest) {
     args = rest.concat(args);
 
     if (args.length >= functionParamsLen) {
-      fn.apply(this, args);
+      return fn.apply(null, args);
     } else {
       return curry(fn, ...args);
     }
